@@ -3,39 +3,58 @@
 Generated: 2026-06-13 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: last 7 briefs (16 URLs loaded; found 2026-06-12, 06-11, 06-10, 06-09)
-Tiers used: 1+2 (both consulted; neither yielded a qualifying story)
+Dedup against: last 7 briefs (16 URLs loaded)
+Tiers used: 1
 
 ## Significance ledger
 | Company | Tier | Significant? | Reason | Selected |
 |---|---|---|---|---|
-| Nvidia | 1 | ✅ | RTX Spark launch — but dated 1 มิ.ย. (>24h); Nvidia–SK Telecom 7 มิ.ย. (>24h); Cadence partnership เม.ย. (>24h) | no (Gate A) |
-| Microsoft | 1 | ✅ | Copilot outage ~11 มิ.ย. 16:00 ET ≈ 12 มิ.ย. 03:00 BKK (~28h, >24h) และไม่มีสำนักข่าวในรายการที่เชื่อถือได้รายงาน | no (Gate A + no trusted citation) |
-| Apple | 1 | ✅ | WWDC/Siri overhaul — dated 8 มิ.ย. (>24h) และถูกรายงานแล้วในบรีฟ 06-09/06-10 | no (Gate A + Gate B) |
-| Alphabet/Google | 1 | ❌ | Gemini 3.5 Pro ยังไม่ปล่อย GA (ไม่มีเหตุการณ์ภายใน 24h) | no (Gate D — no event) |
-| Alibaba | 1 | ✅ | Qwen3.7-Plus — dated 2 มิ.ย. (>24h) | no (Gate A) |
-| Amazon | 1 | ✅ | Claude Fable 5 on Bedrock — 9 มิ.ย. (>24h) | no (Gate A) |
-| Oracle | 1 | ✅ | Record Q4/FY2026 results — 12 มิ.ย. แต่รายงานแล้วในบรีฟ 06-12 | no (Gate B) |
-| AMD | 1 | ✅ | MI400/OpenAI — ข่าวเก่า (>24h) | no (Gate A) |
-| Tesla | 1 | ❌ | ไม่มีข่าว AI ภายใน 24h | no (Gate A) |
-| Meta Platforms | 1 | ✅ | Muse Spark — dated 8 เม.ย. (>24h) | no (Gate A) |
-| Tencent | 2 | ❌ | อัปเดต repo Hunyuan (UniRL, HY-Embodied) บน GitHub 12 มิ.ย. — เป็นงานประจำ ไม่มีนัยสำคัญ และไม่มีสำนักข่าวในรายการ | no (Gate D + no trusted citation) |
-| TSMC / Micron / Palantir / Xiaomi / Oklo / Netflix / Affirm / Goldman / Berkshire | 2 | ❌ | ไม่มีข่าว AI สำคัญใหม่ภายใน 24h จากสำนักข่าวที่เชื่อถือได้ | no (Gate A/D) |
+| Alphabet/Google | 1 | ✅ | Legal action: sues Chinese AI scam ring Outsider Enterprise | yes (slot 1) |
+| Meta Platforms | 1 | ✅ | Org crisis: Applied AI unit revolt + CEO memo acknowledging mistakes | yes (slot 2) |
+| Nvidia | 1 | ❌ | No June 12-13 trusted-source story within WINDOW (Apple PCC story broke June 8-9) | no |
+| Tesla | 1 | ❌ | SpaceX merger hint not AI/tech-relevant (Gate C fail) | no |
+| Microsoft | 1 | ❌ | SkillOpt released May 22 (outside WINDOW); no other June 12-13 story found | no |
+| Amazon | 1 | ❌ | No fresh June 12-13 story from trusted source | no |
+| Apple | 1 | ❌ | PCC/Google/Nvidia broke June 8-9 (Gate A); no trusted-source June 12 article found | no |
+| Alibaba | 1 | ❌ | No fresh June 12-13 story found | no |
+| AMD | 1 | ❌ | No fresh June 12-13 story found | no |
+| Goldman Sachs | 2 | ❌ | AI capex forecast = analyst report (Gate D fail) | no |
+| TSMC | 2 | ❌ | May revenue record covered in June 11 brief (Gate B) | no |
 
 ## Tier-descent record
-Tier 1 yielded 0 qualifying stories; descended to Tier 2 — Tier 2 also yielded 0 qualifying stories. Ship the empty-day stub.
+Tier 1 yielded 2 significant stories; Tier 2 not consulted (no significant Tier 2 stories found within WINDOW — Goldman Sachs AI forecast fails Gate D, TSMC covered earlier).
 
 ## Selected stories
-(none — 0 stories passed all gates)
+1. **Google sues alleged Chinese cybercrime operation using AI to send scam texts**
+   - Company: Alphabet  ·  Ticker: GOOGL US  ·  Tier: 1
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/06/12/google-sues-alleged-chinese-cybercrime-operation-that-used-ai-to-send-scam-texts/
+   - Published: June 12, 2026
+   - FreshnessCheck: ✅ within last 24h via TechCrunch URL date (2026/06/12)
+   - DedupCheck: ✅ URL not in last-7-day set
+   - Relevance: ✅ AI/tech — AI-powered scam campaign (9,000 fake sites, 1M domains, 2.5M texts) + Google AI countermeasures
+   - Significance: ✅ regulatory/legal touching AI — major lawsuit, hundreds of thousands of victims, millions USD in losses
+   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED)
+   - Summary: Google sued Outsider Enterprise for deploying AI to send 2.5M scam SMS texts in 2 weeks, using 9,000 fake websites and 1M fraudulent domains, defrauding hundreds of thousands of victims. Google uses "AI-powered tools to fight AI-powered scams."
+
+2. **Meta's months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it**
+   - Company: Meta Platforms  ·  Ticker: META US  ·  Tier: 1
+   - Publisher: TechCrunch
+   - URL: https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/
+   - Published: June 12, 2026
+   - FreshnessCheck: ✅ within last 24h via TechCrunch URL date (2026/06/12)
+   - DedupCheck: ✅ URL not in last-7-day set
+   - Relevance: ✅ AI/tech — about Meta's Applied AI unit (6,500 engineers supporting frontier AI research and training)
+   - Significance: ✅ executive/org change in AI unit — employee revolt, stream hijacking incident, 1,600-person petition, CEO internal memo acknowledging mistakes
+   - Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED)
+   - Summary: Meta's Applied AI team of 6,500 engineers is in crisis: an employee hijacked a company livestream with profanity demands, 1,600+ signed a petition against AI-training keystroke monitoring, engineers describe work as "soul-crushing." Zuckerberg issued an internal Friday memo acknowledging "mistakes" and that changes "caused distress."
 
 ## Dropped
-- https://thenextweb.com/news/openai-acquires-ona-codex — OFF-WATCHLIST (OpenAI ไม่อยู่ใน watchlist) — "OpenAI to acquire Ona (12 มิ.ย.)"
-- (OpenAI real-time audio models, 12 มิ.ย.) — OFF-WATCHLIST
-- (SpaceX IPO บน Nasdaq, 12 มิ.ย.) — OFF-WATCHLIST
-- (Snap ปลดพนักงาน ~1,000 คนเพราะ AI, 12 มิ.ย.) — OFF-WATCHLIST
-- https://www.techtimes.com/articles/318290/20260612/... — Gate A (~28h) + สำนักข่าวไม่อยู่ในรายการที่เชื่อถือได้ — "Microsoft Copilot outage (11 มิ.ย.)"
-- GitHub Tencent-Hunyuan (UniRL, HY-Embodied) — Gate D (งานประจำ ไม่สำคัญ) + ไม่มีสำนักข่าวในรายการ — "Tencent repo updates (12 มิ.ย.)"
-- https://nvidianews.nvidia.com/... SK Telecom — Gate A (7 มิ.ย., >24h) — "Nvidia–SK Telecom gigawatt AI cloud"
-- https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-... — Gate A (1–2 มิ.ย., >24h) — "Nvidia RTX Spark"
-- https://www.marktechpost.com/2026/06/02/alibabas-qwen-team-... — Gate A (2 มิ.ย., >24h) — "Qwen3.7-Plus"
-- https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html — Gate A (8 มิ.ย.) + Gate B (รายงานแล้ว) — "Apple WWDC/Siri"
+- https://www.apple.com + blogs.nvidia.com (Apple PCC + Google + Nvidia) — Gate A: original story broke June 8-9 at WWDC, >24h ago; no trusted-source June 12 article found
+- https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/ — Gate A: June 2, >24h ago
+- Apple Foundation Models / LanguageModel protocol — Gate A: published June 8-9
+- Microsoft SkillOpt — Gate A: released May 22; VentureBeat coverage June 11 also outside WINDOW
+- Goldman Sachs AI capex forecast — Gate D: analyst forecast, not a material company event
+- SpaceX/Tesla merger hint (TechCrunch June 12) — Gate C: not an AI/tech development for Tesla
+- TSMC May 2026 revenue record — Gate B: covered in 2026-06-11-brief.md
+- Mistral €3B fundraise (TechCrunch June 12) — watchlist gate: Mistral not in watchlist.json
