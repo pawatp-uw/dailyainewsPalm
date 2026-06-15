@@ -1,42 +1,39 @@
-# Sources — 2026-06-14
+# Sources — 2026-06-15
 
-Generated: 2026-06-14 (Asia/Bangkok)
+Generated: 2026-06-15 (Asia/Bangkok)
 Runtime: WEBFETCH_BLOCKED
 Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: last 7 briefs (20 URLs loaded)
-Tiers used: 1 (0 stories passed)
+Dedup against: last 7 briefs (18 URLs loaded)
+Tiers used: 1+2 (0 stories passed)
 
 ## Significance ledger
 | Company | Tier | Significant? | Reason | Selected |
 |---|---|---|---|---|
-| Tesla | 1 | ⚠️ | FSD v14.3.4 (13 มิ.ย.): MLIR compiler rewrite + Cybertruck Summon — ผ่าน Gate A-D แต่ VERIFICATION FAIL (ไม่มี trusted-source URL) | no |
-| Nvidia | 1 | ❌ | SK Telecom DSX (7 มิ.ย.), NAVER DSX (7-9 มิ.ย.), Computex Rubin/RTX Spark (1-4 มิ.ย.) — Gate A fail | no |
-| Microsoft | 1 | ❌ | Build 2026 (2-3 มิ.ย.), SkillOpt (22 พ.ค.), Copilot announcements — Gate A fail | no |
-| Amazon | 1 | ❌ | ไม่พบข่าวจาก June 13-14 | no |
-| Oracle | 1 | ❌ | Q4 FY2026 earnings ครอบคลุมใน brief 12 มิ.ย. (Gate B); June 2026 AI blog ~11 มิ.ย. (Gate A) | no |
-| Alphabet | 1 | ❌ | $80B equity raise (1-5 มิ.ย.), Google I/O/NAVER DSX (7 มิ.ย.) — Gate A fail | no |
-| Apple | 1 | ❌ | WWDC (8-12 มิ.ย.) ครอบคลุมใน brief 9-12 มิ.ย. (Gate B); WWDC สิ้นสุด 12 มิ.ย. | no |
-| Alibaba | 1 | ❌ | Qwen3.7-Plus (2 มิ.ย.), AMD Qwen3.5 support (ก.พ.) — Gate A fail | no |
-| Meta | 1 | ❌ | Muse Spark (8 เม.ย.), Applied AI revolt ครอบคลุมใน brief 13 มิ.ย. (Gate B) | no |
-| AMD | 1 | ❌ | EPYC Turin benchmark ครอบคลุมใน brief 11 มิ.ย. (Gate B) | no |
-| Tencent | 2 | ❌ | WeChat AI agent announcement (2-3 มิ.ย.) — Gate A fail | no |
-| TSMC | 2 | ❌ | May revenue (10 มิ.ย.) ครอบคลุมใน brief 11 มิ.ย. (Gate B) | no |
-| Micron | 2 | ❌ | HBM4 high-volume production (16 มี.ค., GTC 2026) — Gate A fail | no |
-| Palantir | 2 | ❌ | ไม่พบข่าวสำคัญจาก June 13-14 | no |
-| Berkshire / Goldman / Oklo / Netflix / Affirm / Xiaomi | 2 | ❌ | ไม่พบข่าวสำคัญจาก June 13-14 | no |
+| Nvidia | 1 | ❌ | VivaTech keynote (17-20 มิ.ย.) ยังไม่เกิด; Computex/SK Telecom/LG stories (1-9 มิ.ย.) — Gate A fail | no |
+| Tesla | 1 | ❌ | FSD rollout June 13 ไม่มี trusted-source; NHTSA EA March 18 — Gate A fail | no |
+| Microsoft | 1 | ❌ | Build 2026 (2-3 มิ.ย.), MAI models (2-9 มิ.ย.) — Gate A fail | no |
+| Amazon | 1 | ❌ | OpenAI on Bedrock GA (1 มิ.ย.) — Gate A fail | no |
+| Oracle | 1 | ❌ | Q4 FY2026 earnings (10 มิ.ย.) — Gate A fail | no |
+| Alphabet | 1 | ❌ | Investor presentation (1 มิ.ย.); VivaTech in City Google showcase (14 มิ.ย.) — Gate D fail (consumer event, ไม่ใช่ corporate announcement) | no |
+| Apple | 1 | ❌ | WWDC (8-12 มิ.ย.) ครอบคลุมใน brief 9-12 มิ.ย. — Gate B (dedup) | no |
+| Alibaba | 1 | ❌ | Qwen 3.7 Plus GA (1 มิ.ย.) — Gate A fail | no |
+| Meta | 1 | ❌ | Applied AI revolt ครอบคลุมใน brief 13 มิ.ย. — Gate B; Muse Spark April — Gate A fail | no |
+| AMD | 1 | ❌ | EPYC Turin benchmark (10 มิ.ย.) ครอบคลุมใน brief 11 มิ.ย. — Gate B | no |
+| Tencent | 2 | ❌ | Cloud Day Hong Kong (12 มิ.ย.) — Gate A fail | no |
+| TSMC | 2 | ❌ | May revenue (10 มิ.ย.) ครอบคลุมใน brief 11 มิ.ย. — Gate B | no |
+| Micron | 2 | ❌ | Q3 earnings June 24 (ยังไม่รายงาน) | no |
+| Palantir / Goldman / Oklo / Netflix / Affirm / Xiaomi / Berkshire | 2 | ❌ | ไม่พบข่าวสำคัญจาก June 14-15 | no |
 
 ## Tier-descent record
-Tier 1 ยืนยัน 0 เรื่องที่ผ่านเกณฑ์และ verify ได้ — ไม่ลงไป Tier 2 เนื่องจากปัญหาคือ WINDOW ไม่มีข่าว ไม่ใช่จำนวน Tier 1 ไม่เพียงพอ
+Tier 1 ยืนยัน 0 เรื่องที่ผ่านเกณฑ์; ลงไป Tier 2 — 0 เรื่อง. รวมทุก tier: 0 เรื่อง. สาเหตุหลัก: Gate A (เสาร์-อาทิตย์ไม่มีการประกาศจากบริษัทใน watchlist)
 
 ## Selected stories
 ไม่มี
 
 ## Dropped
-- Tesla FSD v14.3.4 — Verification Tier 2 FAIL: URL ปรากฏเฉพาะบน teslaoracle.com, notateslaapp.com, techtimes.com, driveteslacanada.ca — ไม่มีใน trusted-sources.md
-- Nvidia Computex / SK Telecom / NAVER DSX — Gate A (>24h): ลงวันที่ 1-9 มิ.ย.
-- Microsoft Build 2026 / SkillOpt — Gate A (>24h): ลงวันที่ 2 มิ.ย. / 22 พ.ค.
-- Oracle OCI June 2026 blog — Gate A (~11 มิ.ย., ≈3 วัน)
-- Meta Applied AI revolt, Google Outsider Enterprise lawsuit — Gate B: ครอบคลุมใน brief 13 มิ.ย.
-- Tencent WeChat AI agent — Gate A (>24h): ลงวันที่ 2-3 มิ.ย.
-- Alphabet $80B equity raise — Gate A (>24h): ปิดดีล 4-5 มิ.ย.
-- Apple WWDC announcements — Gate B: ครอบคลุมใน brief 9-12 มิ.ย.
+- Nvidia VivaTech/GTC Paris — Gate A: keynote June 17 (อยู่ในอนาคต)
+- Google VivaTech in the City (14 มิ.ย.) — Gate D: consumer showcase ไม่ใช่ corporate announcement
+- Microsoft Build/MAI models — Gate A: June 2-9
+- Oracle Q4 FY2026 / OpenAI on Bedrock / AMD EPYC — Gate A หรือ Gate B
+- Apple WWDC / Meta Applied AI revolt — Gate B (ครอบคลุมใน brief ก่อนหน้า)
+- Micron Q3 earnings — ยังไม่รายงาน (June 24)
