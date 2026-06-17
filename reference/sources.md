@@ -1,75 +1,60 @@
-# Sources — 2026-06-16
+# Sources — 2026-06-17
 
-Generated: 2026-06-16 (Asia/Bangkok)
-Runtime: WEBFETCH_BLOCKED
-Freshness window: rolling 24h (Asia/Bangkok)
-Dedup against: last 7 briefs (18 URLs loaded)
-Tiers used: 1
+Generated: 2026-06-17 (Asia/Bangkok)  
+Runtime: WEBFETCH_BLOCKED  
+Freshness window: rolling 24h (Asia/Bangkok)  
+Dedup against: last 7 briefs (14 URLs loaded)  
+Tiers used: 1  
 
 ## Significance ledger
 | Company | Tier | Significant? | Reason | Selected |
 |---|---|---|---|---|
-| Nvidia | 1 | ❌ | No news within 24h window (GTC Paris keynote June 17) | no |
-| Tesla | 1 | ❌ | No significant news within 24h window | no |
-| Microsoft | 1 | ✅ | Work IQ API GA on June 16 (product launch — A2A, MCP server, REST API endpoints) | yes (slot 2) |
-| Amazon | 1 | ✅ | Anthropic Fable 5/Mythos 5 export ban follow-up (June 15): EU reaction + cybersecurity expert protest; Amazon CEO Andy Jassy triggered the government action | yes (slot 1) |
-| Oracle | 1 | ❌ | Q4 FY2026 covered June 12; no new news in window | no |
-| Alphabet | 1 | ❌ | $80B raise June 1 outside window; no June 15-16 significant news | no |
-| Apple | 1 | ❌ | No significant news within 24h window | no |
-| Alibaba | 1 | ❌ | Qwen 3.7-Plus GA June 1 outside window; no new June 15-16 news | no |
-| Meta | 1 | ❌ | No significant June 15-16 news | no |
-| AMD | 1 | ❌ | Venice announced May 20 (Gate A); no new June 15-16 news | no |
-| Berkshire Hathaway | 2 | ❌ | No AI/tech news | no |
-| Goldman Sachs | 2 | ❌ | No significant AI news | no |
-| Palantir | 2 | ❌ | AIPCon 10 June 4 (Gate A) | no |
-| Oklo | 2 | ❌ | No significant news | no |
-| Netflix | 2 | ❌ | No significant news | no |
-| Affirm | 2 | ❌ | No significant news | no |
-| TSMC | 2 | ❌ | Vanguard stake sale May 15 (Gate A); stock surge June 15 = market rally (Gate D fail) | no |
-| Tencent | 2 | ❌ | Lin Junyang AI lab investment (June 15) not found on trusted-sources.md outlets (only gurufocus.com / The Information screening) | no |
-| Xiaomi | 2 | ❌ | MiMo Code covered June 12 (Gate B); no new news | no |
-| Micron | 2 | ❌ | Q3 earnings June 24; no today news | no |
+| Nvidia | 1 | ✅✅✅ | 3 items: Europe sovereign AI infra (3,000+ exaflops), Mistral + cloud/telco ecosystem (18K Grace Blackwell), Industrial AI / Airbus–BMW (VivaTech June 17) | yes (roundup, slot 1) |
+| Tesla | 1 | ❌ | Shareholder meeting content found only on non-trusted sources (eu.36kr.com, Sherwood News); date in window unconfirmed | no |
+| Microsoft | 1 | ❌ | Work IQ APIs GA (June 16) — Gate B, covered in 2026-06-16 brief | no |
+| Amazon | 1 | ❌ | VivaTech startup village showcase (aboutamazon.eu) — Gate D fail (marketing event, no significant announcement) | no |
+| Oracle | 1 | ❌ | Q4 FY2026 earnings (June 10–12) — Gate A (>5 days old, covered 2026-06-12) | no |
+| Alphabet | 1 | ❌ | $80B stock sale (June 1–2) — Gate A (>14 days) | no |
+| Apple | 1 | ❌ | WWDC (June 8–12) — Gate A (>5 days) | no |
+| Alibaba | 1 | ✅ (gate blocked) | Qwen-Robot Series launch (June 16) — passes A/B/C/D but NO trusted-source URL found after 7 searches; eWeek/techgenyz/pymnts/technology.org/SCMP not on trusted-sources.md; alizila.com not found | no (trusted source absent) |
+| Meta | 1 | ❌ | Applied AI crisis covered 2026-06-13 (Gate B); no new significant June 16–17 announcement on trusted sources | no |
+| AMD | 1 | ✅ (gate blocked) | MEXT acquisition (published June 15, SiliconAngle URL dated 2026/06/15) — Gate A fail | no (Gate A) |
+| Berkshire Hathaway | 2 | ❌ | No AI/tech news in window | no |
+| Goldman Sachs | 2 | ❌ | No AI/tech news in window | no |
+| Palantir | 2 | ❌ | Q1 earnings (April/May 2026) — Gate A | no |
+| Oklo | 2 | ❌ | No news in window | no |
+| Netflix | 2 | ❌ | No AI/tech news in window | no |
+| Affirm | 2 | ❌ | No AI/tech news in window | no |
+| TSMC | 2 | ❌ | May revenue (covered 2026-06-11, Gate B + Gate A) | no |
+| Tencent | 2 | ❌ | Hunyuan 3.0 (April 2026) — Gate A | no |
+| Xiaomi | 2 | ❌ | MiMo Code (covered 2026-06-12, Gate B + Gate A) | no |
+| Micron | 2 | ❌ | Q3 FY2026 earnings on June 24 (upcoming); no fresh news today | no |
 
 ## Tier-descent record
-Tier 1 yielded 2 significant stories. Descended to Tier 2 for all 10 companies; 0 additional significant stories found on trusted-sources.md outlets within the 24h window.
+Tier 1 yielded 1 significant story (roundup, 3 items). Descended to Tier 2 — 0 significant stories found within 24h window on trusted sources. Total: 1 story (target: 5).
 
 ## Selected stories
-
-### 1. Anthropic Fable 5 & Mythos 5 US Export Ban — June 15 Follow-up
-- Company: Amazon · Ticker: AMZN US · Tier: 1
-- Publisher: TechCrunch (primary citation) / CNBC (secondary) / Anthropic newsroom (PRIMARY background)
-- URL: https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/
-- Supporting: https://www.cnbc.com/video/2026/06/15/u-s-export-ban-anthropics-mythos-and-fable-sends-shockwaves-through-europe.html
-- Background (PRIMARY): https://www.anthropic.com/news/fable-mythos-access
-- Published: June 15, 2026 (TechCrunch + CNBC articles within 24h window)
-- FreshnessCheck: ✅ within last 24h via TechCrunch /2026/06/15/ URL slug; CNBC /2026/06/15/ URL slug
-- DedupCheck: ✅ URLs not in last-7-day set (June 15 brief was a stub)
-- Relevance: ✅ AI/tech — US government export controls on frontier AI models (Anthropic in Amazon's keywords)
-- Significance: ✅ Regulatory/legal/export-control touching AI — extreme significance; first blanket export ban on a frontier AI model
-- Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED); techcrunch.com and cnbc.com are on trusted-sources.md; anthropic.com/news is PRIMARY for AI labs
-- Summary: US Commerce Department issued export control directive June 12 forcing Anthropic to shut down Fable 5 and Mythos 5 globally within 72 hours of launch. On June 15, cybersecurity experts protested (TechCrunch) and Europe expressed AI sovereignty concerns (CNBC).
-
-### 2. Microsoft Work IQ APIs GA — June 16
-- Company: Microsoft · Ticker: MSFT US · Tier: 1
-- Publisher: Microsoft 365 Developer Blog (PRIMARY)
-- URL: https://devblogs.microsoft.com/microsoft365dev/work-iq-production-ready-intelligence-for-every-agent/
-- Supporting: https://www.microsoft.com/en-us/licensing/news/work-iq-general-availability
-- Published: June 16, 2026 (GA launch day)
-- FreshnessCheck: ✅ within last 24h — multiple sources confirm "June 16" as GA date; devblogs.microsoft.com is the GA launch post
-- DedupCheck: ✅ URLs not in last-7-day set
-- Relevance: ✅ AI/tech — enterprise AI context APIs for agent builders accessing M365 data
-- Significance: ✅ Product launch — Work IQ = new enterprise AI API enabling agents to access M365 organizational context (email, calendar, meetings, files, collaboration patterns)
-- Verification: Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED); devblogs.microsoft.com is Microsoft PRIMARY (consistent with blogs.microsoft.com on trusted-sources.md)
-- Summary: Work IQ APIs go GA June 16 with A2A, MCP server, and REST API endpoints; billed via Copilot Credits consumption model; enterprise governance controls live in M365 admin center.
+### 1. Nvidia — VivaTech/GTC Paris Europe AI Infrastructure Roundup
+- **Company:** Nvidia  ·  **Ticker:** NVDA US  ·  **Tier:** 1  
+- **Publisher:** NVIDIA Newsroom (nvidianews.nvidia.com) — Primary trusted source  
+- **URL 1:** https://nvidianews.nvidia.com/news/europe-ai-infrastructure  
+- **URL 2:** https://nvidianews.nvidia.com/news/nvidia-partners-with-europe-model-builders-and-cloud-providers-to-accelerate-regions-leap-into-ai  
+- **URL 3 (sub-item 1.3):** https://venturebeat.com/technology/mistral-ai-launches-vibe-expands-into-industrial-ai-and-announces-data-center-push-to-challenge-openai  
+- **Published:** June 17, 2026 (VivaTech opening day; articles indexed in current search run)  
+- **FreshnessCheck:** ✅ VivaTech opens June 17, 2026; both NVIDIA Newsroom press releases appeared in search results during this run  
+- **DedupCheck:** ✅ URLs not in last-7-day set  
+- **Relevance:** ✅ AI infrastructure / sovereign AI / compute capex / major partnerships  
+- **Significance:** ✅ Major partnerships (France/Italy/Germany/UK sovereign AI) + compute capex (18,000 Grace Blackwell for Mistral) + AI factory infra + industrial AI (Airbus, BMW)  
+- **Verification:** Tier 2 — WebSearch snippet (WEBFETCH_BLOCKED); URL 1 & 2 on Primary trusted source (nvidianews.nvidia.com); URL 3 on Citation source (venturebeat.com)  
+- **Summary:** Nvidia announced three major initiatives at VivaTech 2026: (1) France/Italy/Germany/UK committing to 3,000+ exaflops Blackwell for sovereign AI; (2) Mistral AI receiving 18,000 Grace Blackwell with cloud partners Domyn/Nebius/Nscale and telcos Orange/Swisscom/Telefónica/Telenor; (3) Mistral for Industrial Engineering serving Airbus all divisions and BMW Group Large Industry Model.
 
 ## Dropped
-- AMD EPYC Venice (amd.com/en/newsroom/press-releases/2026-5-20-...) — Gate A: announced May 20, 2026
-- Nvidia+TSMC AI in Fabs (nvidianews.nvidia.com) — Gate A: announced June 1, 2026
-- Alibaba Qwen 3.7-Plus GA — Gate A: GA June 1, 2026
-- Palantir AIPCon 10 (businesswire.com/news/home/20260604590081) — Gate A: June 4, 2026
-- TSMC Vanguard stake sale — Gate A: announced May 15, 2026
-- Tencent Lin Junyang AI lab (June 15) — No trusted-sources.md outlet found; gurufocus.com and The Information (screening) only
-- TSMC stock surge June 15 — Gate D: market rally triggered by US-Iran peace deal, not AI/tech company development
-- Gemini 3.5 Pro — not yet released (expected late June 2026)
-- TechCrunch June 12: "Anthropic's safety warnings may have just backfired" — Gate A: June 12, outside 24h window
-- TechCrunch June 13: "Amazon CEO reportedly raised Anthropic model concerns" — Gate A: June 13, outside 24h window
+- Alibaba Qwen-Robot Series (June 16, 2026) — Trusted-source absent: 7 search attempts found no URL on any outlet listed in trusted-sources.md; sources found (eWeek, techgenyz, pymnts, technology.org, SCMP) are not listed; SCMP excluded per China-concentration policy; alizila.com not indexed for this story
+- AMD MEXT acquisition (published June 15, 2026) — Gate A: SiliconAngle URL dated 2026/06/15, outside 24h window starting June 16 07:15 Bangkok
+- Microsoft Work IQ APIs GA (June 16, 2026) — Gate B: covered in 2026-06-16 brief; same URLs already in RECENT_URLS
+- Tesla shareholder meeting — Trusted-source absent: coverage found only on eu.36kr.com and Sherwood News (not listed); date not confirmed within window
+- Alphabet $80B stock sale (June 1–2, 2026) — Gate A: >14 days old
+- Apple WWDC (June 8–12, 2026) — Gate A: covered in prior briefs
+- Oracle Q4 FY2026 (June 10–12, 2026) — Gate A + Gate B
+- Pentagon AI deals (May 1–5, 2026) — Gate A: >6 weeks old
+- Amazon/Nvidia VivaTech startup village (aboutamazon.eu) — Gate D: startup showcase marketing event; no product/partnership announcement
